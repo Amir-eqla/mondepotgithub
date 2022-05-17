@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>renard</title>
+</head>
+<body>
+    <h1>ceci est un site fermé</h1>
+    <a href="./article.html">lien vers 
+        l'article</a>
+        <!-- commentaires -->
+</body>
+<script>
+    // alert("bonjour je m'appel Amir");
+    // let username = prompt("quel est votre nom ?");
+    // alert("hello"+username);
+    // let number1 = 5;
+    // let number2 = 7;
+    // alert(number1 + number2);
+    // let number3 = parseInt( prompt("entrer le premier nombre"));
+    // let number4 = parseInt( prompt ("entrer le deuxième nombre"));
+    // let number5 = parseInt( prompt("entrer le troisième nombre"));
+    // alert(number5+" x "+number4+" + "+number3+" = "+(number3 + number4 * number5));
+
+    // let number1 = parseInt( prompt("Entrer un premier chiffre"))
+    // let number2 = parseInt( prompt("Entrer le chiffre diviseur"))
+    // if(number2==0)
+    // {
+    //     alert("La division par 0 est impossible")
+    // }
+    // else
+    // {
+    //     alert(number1+" : "+number2+ " = "+(number1/number2))
+    // }
+
+    let number1 = parseInt( prompt("Entrer un premier nombre"))
+    let opération = parseInt( prompt("Tapez 1 pour une addition, Tapez 2 pour une soustraction, Tapez 3 pour une multiplication et Tapez 4 pour une division"))
+    let number2 = parseInt( prompt("Entrer un deuxième nombre"))
+    if (opération==1)
+    {
+        alert(number1+" + "+number2+" = "+(number1+number2))
+    }
+    if (opération==2)
+    {
+        alert(number1+" - "+number2+" = "+(number1-number2))
+    }
+    if (opération==3)
+    {
+        alert(number1+" x "+number2+" = "+(number1*number2))
+    }
+    if (opération==4)
+    {
+        if (number2==0)
+        {
+            alert("La division par 0 est impossible")
+        }
+        else
+        {
+        alert(number1+" : "+number2+" = "+(number1/number2))
+        }
+        
+    }
+    
+
+</script>
+
+<!-- <ul>
+    <li>Tapez 1 pour une addition</li>
+    <li>Tapez 2 pour une soustraction</li>
+    <li>Tapez 3 pour une multiplication</li>
+    <li>Tapez 4 pour une division</li>
+</ul> -->
+</html>
